@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ovo&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    max-width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.kanarya {
+    float: left;
+    margin-right: 2em;
+    font-family: "Ovo", serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Ovo", serif;
+    font-size: 1.2em;
+}
+
+nav {
+    font-family: "Ovo", serif;
+}
+
+ul {
+    font-family: "Ovo", serif;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin-left: 1.5em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+a::before {
+    content: '[';
+}
+
+a::after {
+    content: ']';
+}
+
+footer {
+    font-family: "Ovo", serif;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* dynamic table so it doesn't like squish */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
